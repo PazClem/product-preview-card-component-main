@@ -1,26 +1,28 @@
-main{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-@media (min-width: 375px) {
-    main {
-        flex-direction: row;
-    }
-}
 
 body{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: hsl(30, 38%, 92%);
 }
-
+@media (min-width: 375px) {
+    body {
+        flex-direction: row;
+    }
+}
 .content{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
-    padding: 35px;
+    padding: 5px;
+    border: 60px 40px;
+    border-radius: 5px;
 }
 
-.btn{
-    color: sl(158, 36%, 37%);
- 
+.product-image{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
 }
